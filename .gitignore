@@ -1,0 +1,54 @@
+# Python
+.venv/
+venv/
+.silver-deps/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Original project data
+03_PROJECTS/
+data/bronze/
+data/silver/
+
+# Real Silver data
+silver_03_projects/
+silver-template-*.jsonl
+silver_filled*.jsonl
+
+# Generated search indexes
+search_index*/
+exotic_preview_index*/
+*.npy
+*.npz
+*.faiss
+*.sqlite
+
+# Generated outputs
+silver_quality_handoff*/
+unsupported_recovery*/
+exotic_recovery*/
+silver_auto_converted*/
+converted_dxf/
+previews/
+archive_children/
+
+# Logs and reports generated from real data
+logs/
+*.log
+results/
+outputs/
+
+# Local files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+Pillow>=10.2
+transformers>=4.51,<6
+sentencepiece>=0.2
+protobuf>=4
+safetensors>=0.4
+# Install PyTorch separately for your GPU/CPU environment (see README).
